@@ -1,0 +1,30 @@
+# 环境变量和密钥
+.env
+.env.*
+!.env.example
+
+# 数据目录，本地运行时产生
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# 编辑器
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
