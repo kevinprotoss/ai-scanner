@@ -17,7 +17,7 @@ ENV PYTHONUNBUFFERED=1 \
 RUN sed -i 's|deb.debian.org|archive.debian.org|g; s|security.debian.org|archive.debian.org|g' /etc/apt/sources.list \
  && apt-get -o Acquire::Check-Valid-Until=false update \
  && apt-get update && apt-get install -y --no-install-recommends \
-    libgl1 \dock
+    libgl1 \
     libglib2.0-0 \
     libgomp1 \
     libsm6 \
