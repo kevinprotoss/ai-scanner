@@ -1,0 +1,25 @@
+# 数据目录，运行时挂载，不进镜像
+data
+
+# 环境变量和密钥
+.env
+.env.*
+password_hash.txt
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python 缓存和虚拟环境
+**/__pycache__
+**/*.pyc
+backend/.venv
+.venv
+venv
+
+# 开发容器
+.devcontainer
+
+# 文档
+README.md
